@@ -5,7 +5,7 @@ import { createSpacetimeGrid } from '../domain/SpacetimeGrid';
 import { createVector3 } from '../shared/types/Vector3';
 
 export const createInitialState = (): SimulationState => {
-  const grid = createSpacetimeGrid(28, 16);
+  const grid = createSpacetimeGrid(100, 15);
 
   return {
     bodies: [
